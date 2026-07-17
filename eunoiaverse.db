@@ -1,0 +1,130 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": "Sarah J.",
+      "content": "Just landed in the Eunoiaverse! The design here is incredible. ✨",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&q=80",
+      "likes": 24,
+      "timestamp": "2h ago"
+    },
+    {
+      "id": 2,
+      "user": "Edo Erpani",
+      "content": "Major platform update: Neumorphic v2.0 is now live for all creators!",
+      "image": null,
+      "likes": 156,
+      "timestamp": "5h ago"
+    },
+    {
+      "id": 3,
+      "user": "Edo Erpani",
+      "content": "npm run dev",
+      "image": null,
+      "likes": 1,
+      "timestamp": "Just now"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "user": "Alex Rivera",
+      "content": "Welcome! Hope you love it here.",
+      "timestamp": "1h ago"
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "user": "Sarah J.",
+      "avatar": "https://placehold.co/100?text=Sarah",
+      "image": "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=800&q=80",
+      "caption": "Indahnya Jembatan Aji Tulur Jejangkat Kutai Barat! Sunrise di hulu Mahakam 🌅",
+      "timestamp": "2j yang lalu"
+    },
+    {
+      "id": 2,
+      "user": "Alex Rivera",
+      "avatar": "https://placehold.co/100?text=Alex",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+      "caption": "Menyusuri Sungai Mahakam menuju perkampungan Dayak Muara Pahu 🛶💨",
+      "timestamp": "5j yang lalu"
+    },
+    {
+      "id": 3,
+      "user": "Maria K.",
+      "avatar": "https://placehold.co/100?text=Maria",
+      "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=80",
+      "caption": "Menatap keindahan Cagar Alam Kersik Luway. Anggrek Hitam bermekaran! 🌸🖤",
+      "timestamp": "12j yang lalu"
+    }
+  ],
+  "shop": {
+    "brand": "Toko Kerajinan Sentiyu",
+    "products": [
+      {
+        "id": 1,
+        "name": "Tas Anjat Rotan Asli",
+        "description": "Tas gendong anyaman rotan khas suku Dayak Benuaq. Kuat, artistik, dan awet untuk kegiatan outdoor maupun kasual.",
+        "contact": "0812-5555-8899",
+        "price": "185000",
+        "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&q=80"
+      },
+      {
+        "id": 2,
+        "name": "Sarung Tenun Ulap Doyo",
+        "description": "Kain tenun ikat tradisional yang terbuat dari serat daun Doyo asli Kalimantan Timur. Pewarna alami dari tumbuhan hutan.",
+        "contact": "0812-5555-8899",
+        "price": "450000",
+        "image": "https://images.unsplash.com/photo-1584184924103-e310d9d8555e?w=600&q=80"
+      },
+      {
+        "id": 3,
+        "name": "Kalung Manik-manik Benuaq",
+        "description": "Aksesori manik khas Dayak dengan motif ornamen tradisional pembawa keberuntungan dan perlindungan.",
+        "contact": "0813-2244-1100",
+        "price": "65000",
+        "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&q=80"
+      }
+    ]
+  },
+  "following": [
+    "Sarah J.",
+    "Alex Rivera",
+    "Maria K."
+  ],
+  "profile": {
+    "name": "Edo Erpani",
+    "location": "Kutai Barat, Kalimantan Timur",
+    "bio": "Penggiat pesona alam & budaya Kutai Barat. Suka berkelana menyusuri Sungai Mahakam dan mengabadikan kehidupan suku Dayak.",
+    "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&q=80",
+    "themeColor": "blue",
+    "pushNotifications": true,
+    "ambientAutoplay": false
+  },
+  "chats": [
+    {
+      "id": 1,
+      "fromUser": "Sarah J.",
+      "toUser": "Edo Erpani",
+      "content": "Halo Edo! Selamat datang di aplikasi Pesona Kutai Barat. Ada rencana berkunjung ke Jembatan Aji Tulur Jejangkat pekan ini?",
+      "timestamp": "Kemarin"
+    },
+    {
+      "id": 2,
+      "fromUser": "Edo Erpani",
+      "toUser": "Sarah J.",
+      "content": "Halo Sarah! Iya nih, rencana mau foto sunset di sana sore ini.",
+      "timestamp": "Kemarin"
+    }
+  ],
+  "meta": {
+    "nextPostId": 4,
+    "nextCommentId": 2,
+    "nextStoryId": 4,
+    "nextChatId": 3,
+    "nextShopProductId": 4,
+    "nextOrderId": 1
+  }
+}

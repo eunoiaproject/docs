@@ -1,0 +1,8 @@
+# Composer
+/vendor/
+
+# Environment
+.env
+
+# Logs
+/logs/
